@@ -13,10 +13,9 @@ def create_project_hash
     projects[title.to_sym] = {}
     binding.pry
   end
-  end
 
   projects
-  end
+end
 
   # projects: kickstarter.css("li.project.grid_4")
   # title: project.css("h2.bbcard_name strong a").text

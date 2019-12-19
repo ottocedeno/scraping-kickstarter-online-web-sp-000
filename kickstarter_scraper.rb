@@ -13,6 +13,7 @@ def create_project_hash
     projects[title.to_sym] = {}
     binding.pry
   end
+  end
 
   projects
   end
